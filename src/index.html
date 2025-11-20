@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travely</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header-menu">
+    <img src="images/logo.png" alt="Travely Logo" class="logo">
+
+    <input type="checkbox" id="menu-toggle" hidden>
+    <label for="menu-toggle" class="menu-button">
+      <img src="images/burger-menu-icon.svg" alt="menu icon">
+      <img src="images/burger-menu-close-icon.svg" class="close-icon" alt="Close">
+    </label>
+
+    <nav class="menu-drawer">
+      <a href="#home">Home</a>
+      <a href="#tutorial">Tutorial</a>
+      <a href="#price">Price</a>
+      <a href="#team">Team</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <div class = "language-tab"> 
+      <img src="images/language.svg" alt="Language icon">
+      <select name="language-selector" class="language-selector">
+        <option value="lng1">English</option>
+        <option value="lng2" selected>Ukrainian</option>
+        <option value="lng3">Polish</option>
+      </select>
+    </div>
+    
+  </header>
+  <section id="home" class="hero">
+    <video class="hero-video" autoplay muted loop playsinline>
+      <source src="images/video2.mp4" type="video/mp4">
+    </video>
+    <div>
+      <h1>Travely</h1>
+      <p>is an app for finding the best and most interesting routes selected by real users based on preferences.</p>
+      <div class="download">
+        <button><img src="images/Store download button.png" alt="Google Play"></button>
+        <button><img src="images/AppStore download button.png" alt="App Store"></button>
+      </div>
+    </div>
+    <img src="images/background.png" alt="App Screenshot" class="background-image">
+  </section>
+
+  <section id="tutorial" class="how-to-use">
+    <h2>How To Use Travely?</h2>
+    <div class="steps-grid">
+      <figure class="step"><span class="step-badge">1</span><img src="images/1use.png" alt="Step 1"></figure>
+      <figure class="step"><span class="step-badge">2</span><img src="images/1use.png" alt="Step 2"></figure>
+      <figure class="step"><span class="step-badge">3</span><img src="images/1use.png" alt="Step 3"></figure>
+      <figure class="step"><span class="step-badge">4</span><img src="images/1use.png" alt="Step 4"></figure>
+      <figure class="step"><span class="step-badge">5</span><img src="images/1use.png" alt="Step 5"></figure>
+      <figure class="step"><span class="step-badge">6</span><img src="images/1use.png" alt="Step 6"></figure>
+      <figure class="step"><span class="step-badge">7</span><img src="images/1use.png" alt="Step 7"></figure>
+      <figure class="step"><span class="step-badge">8</span><img src="images/1use.png" alt="Step 8"></figure>
+    </div>
+  </section>
+
+  <section id="price" class="price">
+    <h2>Price Catalog</h2>
+    <div class="tiers">
+      <div class="pricing-card">
+        <div class="card-header">
+          <h3>Free</h3>
+          <div class="price-text">
+            <span class="price-amount">$0</span>
+            <span class="price-period">/per month</span>
+          </div>
+          <p class="card-description">Best for growing large company or enterprise design team.</p>
+        </div>
+        <button class="get-started-btn">Get Started</button>
+        <ul class="features-list">
+          <li class="feature-item">
+            <img src="images/done-icon.svg" alt="check" class="feature-icon">
+            <span>10 Saved Routes</span>
+          </li>
+          <li class="feature-item">
+            <img src="images/done-icon.svg" alt="check" class="feature-icon">
+            <span>Basic Search</span>
+          </li>
+          <li class="feature-item">
+            <img src="images/done-icon.svg" alt="check" class="feature-icon">
+            <span>Ad-Supported</span>
+          </li>
+          <li class="feature-item">
+            <img src="images/done-icon.svg" alt="check" class="feature-icon">
+            <span>2 AI Generator Attempts</span>
+          </li>
+          <li class="feature-item feature-cross">
+            <img src="images/cross-icon.svg" alt="cross" class="feature-icon">
+            <span>Offline Maps</span>
+          </li>
+        </ul>
+      </div>
+      <div class="pricing-card">
+        <div class="card-header">
+          <h3>Professional</h3>
+          <div class="price-text">
+            <span class="price-amount">$10</span>
+            <span class="price-period">/per month</span>
+          </div>
+          <p class="card-description">Best for growing large company or enterprise design team.</p>
+        </div>
+        <button class="get-started-btn">Get Started</button>
+        <ul class="features-list">
+          <li class="feature-item">
+            <img src="images/done-icon.svg" alt="check" class="feature-icon">
+            <span>Unlimited Saved Routes</span>
+          </li>
+          <li class="feature-item">
+            <img src="images/done-icon.svg" alt="check" class="feature-icon">
+            <span>Advanced Search & Filters</span>
+          </li>
+          <li class="feature-item">
+            <img src="images/done-icon.svg" alt="check" class="feature-icon">
+            <span>Ad-Free Experience</span>
+          </li>
+          <li class="feature-item">
+            <img src="images/done-icon.svg" alt="check" class="feature-icon">
+            <span>10 AI Generator Attempts</span>
+          </li>
+          <li class="feature-item feature-cross">
+            <img src="images/cross-icon.svg" alt="cross" class="feature-icon">
+            <span>Offline Maps</span>
+          </li>
+        </ul>
+      </div>
+      <div class="pricing-card">
+        <div class="card-header">
+          <h3>MegaBoom</h3>
+          <div class="price-text">
+            <span class="price-amount">$15</span>
+            <span class="price-period">/per month</span>
+          </div>
+          <p class="card-description">Best for growing large company or enterprise design team.</p>
+        </div>
+        <button class="get-started-btn">Get Started</button>
+        <ul class="features-list">
+          <li class="feature-item">
+            <img src="images/done-icon.svg" alt="check" class="feature-icon">
+            <span>Unlimited Saved Routes</span>
+          </li>
+          <li class="feature-item">
+            <img src="images/done-icon.svg" alt="check" class="feature-icon">
+            <span>Ad-Free Experience</span>
+          </li>
+          <li class="feature-item">
+            <img src="images/done-icon.svg" alt="check" class="feature-icon">
+            <span>Offline Maps</span>
+          </li>
+          <li class="feature-item">
+            <img src="images/done-icon.svg" alt="check" class="feature-icon">
+            <span>Unlimited AI Generator Attempts</span>
+          </li>
+          <li class="feature-item">
+            <img src="images/done-icon.svg" alt="check" class="feature-icon">
+            <span>Exclusive Partner Routes</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="team" class="team">
+    <h2>Our Team</h2>
+    <div class="members">
+      <div><img src="images/person_Andrii.png" alt="Nazarkevich Andrii"><p>Nazarkevich Andrii — Flutter/Dart</p></div>
+      <div><img src="images/person_Ivan.png" alt="Ivan Ivanio"><p>Ivan Ivanio — Flutter/Dart</p></div>
+      <div><img src="images/person_Oleksandr.png" alt="Pirozhak Oleksandr"><p>Pirozhak Oleksandr — Flutter/Dart</p></div>
+      <div><img src="images/person_Serhii.png" alt="Maksymiv Serhii"><p>Maksymiv Serhii — UI/UX</p></div>
+      <div><img src="images/person_Bodya.png" alt="Kovba Bohdan"><p>Kovba Bohdan — DB Engineer</p></div>
+    </div>
+  </section>
+
+  <footer id="contact">
+    <h2>Contact Us</h2>
+    <form>
+      <input type="text" placeholder="Name" required>
+      <input type="email" placeholder="Email" required>
+      <textarea placeholder="Message"></textarea>
+      <button class="submit-button">Submit</button>
+    </form>
+    <div class="info">
+      <p>Email: example@teamwebflow.com</p>
+      <p>Phone: +44 123 654 7890</p>
+      <div class="socials">
+        <img src="images/telegram.png" alt="Telegram">
+        <img src="images/instagram.png" alt="Instagram">
+        <img src="images/linkedin.png" alt="LinkedIn">
+        <img src="images/github.png" alt="Github">
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
